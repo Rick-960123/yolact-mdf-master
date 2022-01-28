@@ -18,6 +18,8 @@ from utils import timer
 from utils.functions import MovingAverage, make_net
 
 
+
+
 # This is required for Pytorch 1.0.1 on Windows to initialize Cuda on some driver versions.
 # See the bug report here: https://github.com/pytorch/pytorch/issues/17108
 torch.cuda.current_device()
