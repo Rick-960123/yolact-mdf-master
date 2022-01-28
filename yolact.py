@@ -13,6 +13,7 @@ from layers import Detect
 from layers.interpolate import InterpolateModule
 from backbone import construct_backbone
 
+
 import torch.backends.cudnn as cudnn
 from utils import timer
 from utils.functions import MovingAverage, make_net
